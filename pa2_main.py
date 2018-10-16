@@ -1,7 +1,8 @@
+if __name__ == '__main__':
+    str = []
+    def cap_join(str):
+        str2 = " ".join(str).title()
+        return str2
+    str = ["calvin", "and", "hobbes", "are", "the", "first", "spacemen", "on", "mars."]
 
-str = ["calvin", "and", "hobbes", "are", "the", "first", "spacemen", "on", "mars."]
-
-cap_join = [x.capitalize() for x in str]
-
-print(*cap_join)
-
+    print(cap_join(str))
